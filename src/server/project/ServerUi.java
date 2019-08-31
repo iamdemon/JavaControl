@@ -15,7 +15,7 @@ public class ServerUi extends javax.swing.JFrame {
      * Creates new form ServerUi
      */
     private boolean click = false;
-    private int SERVER_PORT = 8998;
+    private int SERVER_PORT = 3000;
     private boolean firstTime = true;
     private ServerProject server = new ServerProject();;
     private Thread t ;

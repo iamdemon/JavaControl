@@ -83,7 +83,7 @@ public class ClientHandler extends Thread implements ObserverInterface {
                     socket.close();
                     return;
                 }
-                     
+                     System.out.println(line);
                      if(line.equalsIgnoreCase("next")){
 				//Simulate press and release of key 'n'
 				robot.keyPress(KeyEvent.VK_N);

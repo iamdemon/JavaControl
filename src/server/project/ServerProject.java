@@ -44,7 +44,7 @@ public class ServerProject {
     private static boolean isConnected = true;
     private static Robot robot;
     ClientHandler clientHandler;
-    private static final int SERVER_PORT = 8998;
+    private static final int SERVER_PORT = 3000;
      ArrayList<ClientHandler> listHandler  = new ArrayList<ClientHandler>();
     
     public  ServerProject() {
